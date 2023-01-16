@@ -8,7 +8,7 @@ const app = express();
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
 	res.send({
-		Hola: 'mundo',
+		Hola: 'Esta es un prueba muy interesante de esta app',
 	});
 });
 
